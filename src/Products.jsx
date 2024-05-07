@@ -17,7 +17,7 @@ useEffect(()=>{
 },[])
 
   return (
-    <div className='grid grid-cols-3 gap gap-3'>
+    <div className='grid grid-cols-1 md:grid-cols-3 gap gap-3'>
  {Products.map((pro)=>    <ShowData title={pro.title} price={pro.price} img={pro.image} Rating={pro.rate } />)}
     </div>
   )

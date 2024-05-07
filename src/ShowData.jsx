@@ -4,7 +4,7 @@ function ShowData({title,price,img ,rating}) {
   
   return (
 <div className='flex  ' >
-<div className='font-semibold w-[500px] h-[300px] gap gap-5  shadow-xl shadow-slate-600 pl-[120px] pt-10' >
+<div className='font-semibold w-[500px] h-[300px] gap gap-5 md:opacity-75 cursor-pointer hover:opacity-100 shadow-xl shadow-slate-600 pl-[120px] pt-10' >
    <img className='h-24 w-24 ' src={img}/>
    <h1>{title}</h1>
    <br></br>
