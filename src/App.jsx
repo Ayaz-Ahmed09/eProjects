@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Products from "./Products.jsx";
 import { CarouselDemo } from "./Carousel";
 import Header from "./Header";
+import Footer from "./Footer.jsx";
 function App() {
   return (
     <>
@@ -17,6 +18,9 @@ function App() {
       <div className="">
         <p className='font-bold text-3xl font-sans'> PRODUCTS</p>
         <Products />
+      </div>
+      <div>
+        <Footer/>
       </div>
     </>
   );
