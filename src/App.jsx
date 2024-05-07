@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import Products from "./Products.jsx";
 import { CarouselDemo } from "./Carousel";
 import Header from "./Header";
