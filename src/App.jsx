@@ -10,7 +10,7 @@ function App() {
       </div>
 
       <div className="bg-slate-600 h-[500px] md:w-full">
-        <p className="flex justify-center  pt-6 ">
+        <p className="flex justify-center  pt-4 ">
           <CarouselDemo />
         </p>
       </div>

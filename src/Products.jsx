@@ -4,6 +4,7 @@ import { useState } from 'react'
 import ShowData from './ShowData'
 
 function Products() {
+  
   const APIURL='https://fakestoreapi.com/products'
 const [Products,setProduct]=useState([]);
 useEffect(()=>{
@@ -11,14 +12,14 @@ useEffect(()=>{
   .then(
    (res)=>{
     setProduct(res.data)
-     console.log(res.data)
+    //  console.log(res.data,'jhjhjhjhjhjh')
      
   })
 },[])
 
   return (
     <div className='grid grid-cols-1 md:grid-cols-3 gap gap-3'>
- {Products.map((pro)=>    <ShowData title={pro.title} price={pro.price} img={pro.image} Rating={pro.rate } />)}
+ {Products.map((pro)=>    <ShowData title={pro.title} price={pro.price} img={pro.image} Rating={pro.rate } id={pro.id} />)}
     </div>
   )
 }

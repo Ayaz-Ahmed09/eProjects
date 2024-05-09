@@ -1,4 +1,3 @@
-// Importing necessary React and icon components
 import React from 'react';
 import {
   FaDribbbleSquare,
@@ -9,7 +8,7 @@ import {
 } from 'react-icons/fa';
 // Reusable SocialIcon component with hover effect
 const SocialIcon = ({ icon: Icon }) => (
-  <Icon className="social-icon hover:text-[#7f20ec]" size={30} />
+  <Icon className="social-icon hover:text-[#7f20ec] " size={30} />
 );
 // Footer component
 const Footer = () => {
@@ -27,7 +26,6 @@ const Footer = () => {
     { type: 'section', title: 'Company', items: ['About', 'Blog', 'Jobs', 'Press', 'Careers'] },
     { type: 'section', title: 'Legal', items: ['Claim', 'Policy', 'Terms'] },
   ];
-  // JSX structure of the footer
   return (
     <div className='bg-[#000300] mx-auto py-16 px-8 grid lg:grid-cols-3 gap-8 text-gray-300'>
       {/* Left section with brand and social icons */}
