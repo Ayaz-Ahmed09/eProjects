@@ -24,7 +24,7 @@ const router = createBrowserRouter([
     path:'/Singup',element:<Singup/>
   },
   {
-    path:'ProductDeatil',
+    path:'/ProductDeatil',
     element:<ProductDeatil/>
   },
  

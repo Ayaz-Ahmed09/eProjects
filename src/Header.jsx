@@ -13,7 +13,7 @@ function Header() {
   navigation('/Singup')
  }
   return (
-    <div className='bg-slate-800 h-[80px] flex text-white'>
+    <div className='bg-slate-800  h-[80px] flex text-white '>
         <div className='h-[90px] w-[100px]'>
            <Link to={'/'}><img src={LOL}/></Link>
         </div>

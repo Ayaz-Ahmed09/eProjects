@@ -5,12 +5,12 @@ import Footer from "./Footer.jsx";
 function App() {
   return (
     <>
-      <div>
+      <div className="">
         <Header />
       </div>
 
-      <div className="bg-slate-600 h-[500px]">
-        <p className="flex justify-center  pt-6 ">
+      <div className="bg-slate-600 h-[500px] md:w-full">
+        <p className="flex justify-center  pt-4 ">
           <CarouselDemo />
         </p>
       </div>
