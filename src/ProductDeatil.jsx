@@ -1,9 +1,9 @@
 import React,{useEffect,useState} from "react";
 import Header from "./Header";
 import { useLocation } from "react-router-dom";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 function ProductDeatil(){
-  const { productID } = useParams();
+  // const { productID } = useParams();
     const [oneproduct1, setoneproduct1] = useState([]);
     const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
