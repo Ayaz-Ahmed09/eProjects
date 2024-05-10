@@ -12,7 +12,6 @@ useEffect(()=>{
   .then(
    (res)=>{
     setProduct(res.data)
-    //  console.log(res.data,'jhjhjhjhjhjh')
      
   })
 },[])
