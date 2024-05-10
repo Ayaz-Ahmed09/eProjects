@@ -1,20 +1,22 @@
-import React, { useEffect } from 'react'
-import axios from 'axios'
-import { useState } from 'react'
+// import React, { useEffect } from 'react'
+// import axios from 'axios'
+// import { useState } from 'react'
+import { useLoaderData } from 'react-router-dom'
 import ShowData from './ShowData'
 
 function Products() {
+  const Products = useLoaderData()
   
-  const APIURL='https://fakestoreapi.com/products'
-const [Products,setProduct]=useState([]);
-useEffect(()=>{
-  axios.get(APIURL)
-  .then(
-   (res)=>{
-    setProduct(res.data)
+//   const APIURL='https://fakestoreapi.com/products'
+// const [Products,setProduct]=useState([]);
+// useEffect(()=>{
+//   axios.get(APIURL)
+//   .then(
+//    (res)=>{
+//     setProduct(res.data)
      
-  })
-},[])
+//   })
+// },[])
 
   return (
     <div className='grid grid-cols-1 md:grid-cols-3 gap gap-3'>

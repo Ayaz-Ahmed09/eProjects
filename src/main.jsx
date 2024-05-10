@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App,{loader as loderPost} from './App.jsx'
 import Login from './Login.jsx'
 import Singup from './Singup.jsx'
 import './index.css'
@@ -12,6 +12,7 @@ const router = createBrowserRouter([
   {
     path:'/',
     element:<App/>,
+    loader: loderPost,
     
     
   },
