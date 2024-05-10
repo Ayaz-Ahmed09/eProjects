@@ -1,13 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import { useParams } from 'react-router-dom'
-// import { useNavigation } from 'react-router-dom';
 function ShowData({title,price,img ,rating,id}) {
-
-  // const { id } = useParams();
-
-  // // Use the id here
-  // console.log(id);
   
   return (
 <div className='flex  '>

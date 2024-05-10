@@ -8,7 +8,6 @@ function ProductDeatil(){
     const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const paramvalue = queryParams.get('productID');
-  console.log(paramvalue, "jjsdjddjh");
     
     useEffect(() => {
         fetch(`https://fakestoreapi.com/products/${paramvalue}`)
